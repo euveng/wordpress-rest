@@ -64,4 +64,4 @@ var HeaderComponent = React.createClass({
     }
 });
 
-ReactDOM.render(<HeaderComponent dataURL="http://localhost:8888/wordpress-rest/wp-json/wp/v2/posts" />, document.getElementById('content'));
+ReactDOM.render(<HeaderComponent dataURL="http://dev-stage.net/wordpress-rest/wp-json/wp/v2/posts" />, document.getElementById('content'));
